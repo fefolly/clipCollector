@@ -1,9 +1,22 @@
 #include <iostream>
 #include<fstream>
 #include<vector>
+#include<memory>
 #include "templateimplemetation.h"
 
 using namespace std;
+
+//using unique_ptr
+void tryUniquePointer(){
+    unique_ptr<int> ptr(new int);
+    //shared_ptr<int> sptr = make_shared<int>();  //I can still use the declaration as it is for the unique pointer
+
+    int a = 7;
+    *ptr = a;
+
+    cout <<"The pointer is on : "<< *ptr <<endl;
+    cout <<"oh yeah"<<endl;
+}
 
 //trying vector
 void tryVector(){
@@ -160,6 +173,7 @@ int main()
     cout <<"7 : New for loop c++11"<<endl;
     cout <<"8 : To try lambda"<<endl;
     cout <<"9 : Use vector"<<endl;
+    cout <<"10 : Unique pointer"<<endl;
     cin>>menuchoice;
 
     switch (menuchoice) {
@@ -174,33 +188,21 @@ int main()
                  print<int>(52343);
                  break;
         case 4: //Testing the template function call
-
                 robot.print();
                 break;
         case 5:
                 //testing the connection to file.h & file.cpp
-
                  temp.salut();
                  break;
-        case 6:
-
-            Catchingexception();
-
+        case 6:Catchingexception();
             break;
-        case 7:
-
-            newForLoop();
-
+        case 7:newForLoop();
             break;
-        case 8:
-
-            functCallingLambda();
-
+        case 8:functCallingLambda();
             break;
-        case 9:
-
-            tryVector();
-
+        case 9:tryVector();
+            break;
+        case 10:tryUniquePointer();
             break;
         default: cout<< "Wrong choice dear. Are you blind?!!!"<<endl;
             break;
