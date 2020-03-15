@@ -1,8 +1,77 @@
 #include <iostream>
 #include<fstream>
+#include<vector>
 #include "templateimplemetation.h"
 
 using namespace std;
+
+//trying vector
+void tryVector(){
+vector<string> tableauv;
+
+tableauv.push_back("onetwo");
+tableauv.push_back("troisquatre");
+
+for(auto i : tableauv ){
+    cout<< i <<endl;
+}
+
+}
+
+
+//try lambda expression
+void testlambda(void (*pFunc)()) {
+    pFunc();
+}
+
+
+void functCallingLambda(){
+    auto func = [](){ cout << "Hello" << endl;};
+
+
+    auto fofo = [](){
+        int i = 5;
+        i++;
+        cout << "The variable is: " << i <<endl;
+    };
+
+    func();
+    testlambda(fofo);
+
+}
+
+
+//try for loop for c++11
+void newForLoop(){
+    auto texts = {"one", "two","three","Felix"};
+
+    for(auto text: texts){
+        cout<< text <<endl;
+    }
+}
+
+
+
+//exception handling
+void mightGoWrong(){
+    bool status = true;
+
+
+    if(status){
+        throw 8;
+    }
+}
+
+void Catchingexception(){
+    try {
+        mightGoWrong();
+    } catch (int e) {
+        cout<< "Error code: " << e << endl;
+    }
+
+    cout<< "still running" <<endl;
+}
+
 
 //learning template function
 template <class FT>
@@ -87,6 +156,10 @@ int main()
     cout <<"3 : Try class template"<<endl;
     cout <<"4 : Try function class"<<endl;
     cout <<"5 : Trying connection .H & .cpp"<<endl;
+    cout <<"6 : Exception handling"<<endl;
+    cout <<"7 : New for loop c++11"<<endl;
+    cout <<"8 : To try lambda"<<endl;
+    cout <<"9 : Use vector"<<endl;
     cin>>menuchoice;
 
     switch (menuchoice) {
@@ -109,6 +182,26 @@ int main()
 
                  temp.salut();
                  break;
+        case 6:
+
+            Catchingexception();
+
+            break;
+        case 7:
+
+            newForLoop();
+
+            break;
+        case 8:
+
+            functCallingLambda();
+
+            break;
+        case 9:
+
+            tryVector();
+
+            break;
         default: cout<< "Wrong choice dear. Are you blind?!!!"<<endl;
             break;
     }
