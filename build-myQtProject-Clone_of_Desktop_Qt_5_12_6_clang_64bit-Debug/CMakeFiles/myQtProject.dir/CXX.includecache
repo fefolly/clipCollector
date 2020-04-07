@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/famaizo/git/myQtProject/main.cpp
+iostream
+-
+fstream
+-
+vector
+-
+memory
+-
+templateimplemetation.h
+/Users/famaizo/git/myQtProject/templateimplemetation.h
+
+/Users/famaizo/git/myQtProject/templateimplemetation.h
+iostream
+-
+

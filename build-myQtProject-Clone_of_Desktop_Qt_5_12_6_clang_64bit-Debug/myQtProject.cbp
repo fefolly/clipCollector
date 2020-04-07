@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="myQtProject"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myQtProject">
+				<Option output="/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug/myQtProject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 myQtProject"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myQtProject/fast">
+				<Option output="/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug/myQtProject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 myQtProject/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/famaizo/git/build-myQtProject-Clone_of_Desktop_Qt_5_12_6_clang_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/famaizo/git/myQtProject/main.cpp">
+			<Option target="myQtProject"/>
+		</Unit>
+		<Unit filename="/Users/famaizo/git/myQtProject/templateimplemetation.cpp">
+			<Option target="myQtProject"/>
+		</Unit>
+		<Unit filename="/Users/famaizo/git/myQtProject/templateimplemetation.h">
+			<Option target="myQtProject"/>
+		</Unit>
+		<Unit filename="/Users/famaizo/git/myQtProject/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
